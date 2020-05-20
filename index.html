@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <style>
+
+body {
+    font-family: monospace, Verdana, Geneva, sans-serif;
+    color: black;
+    user-select: none;
+}
+
+/* How to align an object exactly in the center of the webpage*/
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desc {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.8em;
+}
+
+.button {
+    display: block;
+    text-align: center;
+}
+
+.button a:link, a:visited {
+    background-color: white;
+    border: 1px solid black;
+    /* border-radius: 1.1em; */
+    padding: 1em 0.8em;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button a:hover, a:active {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 675px) {
+    .desc {
+        font-size: 1.2rem;
+    }
+
+    .button a:link, a:visited {
+        font-size: 0.7rem;
+    }
+}
+    </style>
+    <body>
+        <div class="container">
+            <div class="desc">
+                <p>Hello you found me!<br>I'm Jakub, a coding architect.</p>
+            </div>
+            <div class="button">
+                <a href="about.html">Find out more here!</a>
+            </div>
+        </div>
+    </body>
+</html>
