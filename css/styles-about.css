@@ -42,11 +42,15 @@ body {
 /* Navigation */
 
 .navigation-panel {
-    position: relative;
+    position: fixed;
+    top: 0;
     display: inline-block;
     width: 100%;
-    padding: 3vmin 5vmin 3vmin 0;
-    /* border: solid red 2px; */
+    padding: 1rem;
+    height: 80px;
+    background-color: white;
+    overflow: hidden;
+    z-index: 2;
 }
 
 .navigation-menu {
@@ -147,7 +151,7 @@ label.navigation-pop-up  {
     position: relative;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: 80px auto 0;
     width: 100%;
     max-width: 1600px;
     /* border: solid green 3px; */
@@ -332,14 +336,15 @@ label.navigation-pop-up  {
     padding-bottom: 2rem;
 }
 
+
+/* Footer */
+
 #footer {
     position: absolute;
     bottom: 0;
     height: 2rem;
     padding: 0.5rem
 }
-
-/* Footer */
 
 .copyright {
     display: block;
