@@ -23,8 +23,8 @@ body {
 /* Logo */
 
 .logo {
-    display: inline-block;
     position: fixed;
+    display: inline-block;
     top: 3%;
     left: 3%;
     max-width: 15%;
@@ -44,13 +44,14 @@ body {
     position: relative;
     display: inline-block;
     width: 100%;
-    padding: 3vmin 5vmin 3vmin 0;
+    padding: 3vmin 6vmin 0 0;
     /* border: solid red 2px; */
 }
 
 .navigation-menu {
     float: right;
     left: 60%;
+    /* border: solid red 2px; */
 }
 
 .navigation-menu ul {
