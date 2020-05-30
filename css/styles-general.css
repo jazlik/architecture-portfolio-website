@@ -45,13 +45,11 @@ body {
     display: inline-block;
     width: 100%;
     padding: 3vmin 6vmin 0 0;
-    /* border: solid red 2px; */
 }
 
 .navigation-menu {
     float: right;
     left: 60%;
-    /* border: solid red 2px; */
 }
 
 .navigation-menu ul {
@@ -164,7 +162,5 @@ label.navigation-pop-up  {
 
 .copyright {
     display: block;
-    width: 100%;
     font-size: 0.7rem;
-    /* border: solid rgb(156, 20, 156) 2px; */
 }

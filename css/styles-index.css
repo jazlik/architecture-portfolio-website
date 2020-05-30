@@ -7,7 +7,6 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1600px;
-    /* border: solid green 3px; */
 }
 
 @media (max-width: 675px) {
