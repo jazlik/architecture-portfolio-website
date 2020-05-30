@@ -19,6 +19,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: monospace, Verdana, Geneva, sans-serif;
     user-select: none;
+    overflow: auto;
 }
 
 /* Layout */
@@ -35,6 +36,16 @@ body {
     margin: 80px auto 0;
     width: 100%;
     max-width: 1600px;
+}
+
+.project-container {
+    flex-direction: column;
+}
+
+@media (max-width: 675px) {
+    .project-container {
+        padding-top: 5vmin;
+    }
 }
 
 .page-wrap {
@@ -66,15 +77,11 @@ body {
     top: 0;
     display: inline-block;
     width: 100%;
-<<<<<<< HEAD
-    padding: 3vmin 6vmin 0 0;
-=======
     padding: 1rem;
     height: 80px;
     background-color: white;
     overflow: hidden;
     z-index: 2;
->>>>>>> 46c6897c4c6a90de2bb51024e932cc226bca9e54
 }
 
 .navigation-menu {
