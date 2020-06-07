@@ -209,10 +209,42 @@ footer {
     background: rgb(60, 60, 60);
 }
 
-<<<<<<< HEAD
 .copyright {
     display: block;
     font-size: 0.7rem;
 }
-=======
->>>>>>> 46c6897c4c6a90de2bb51024e932cc226bca9e54
+
+/* Jumbotron */
+
+@keyframes fade-in-and-out {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+#jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 3;
+    font-size: 3rem;
+    animation: fade-out 1s ease-out 3s forwards;
+}
+
+#jumbotron p {
+    animation: fade-in-and-out 3s ease-in 0s forwards;
+}
