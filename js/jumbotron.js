@@ -38,3 +38,5 @@ function createJumbotron() {
     sessionStorage.setItem('jumbotronOpened', 'true')
   }, 4000);
 }
+
+checkForJumbotron();
