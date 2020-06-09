@@ -81,6 +81,7 @@
     z-index: 2;
     color: rgb(210, 210, 210);
     font-size: 0.8rem;
+    text-transform: uppercase;
     top: -0.3rem;
     left: 0.9rem;
     transition: all 1s ease;
