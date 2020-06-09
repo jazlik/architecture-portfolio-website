@@ -65,9 +65,6 @@
 
 .progress {
     position: relative;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     background-color: rgb(210, 210, 210);
     border-radius: 20px;
     height: 30px;
