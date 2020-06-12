@@ -8,7 +8,17 @@
 
 @media (max-width: 675px) {
     .content {
-        top: 15vmin;
+        top: 30vmin;
+        font-size: 1.2rem;
+
+    }
+}
+
+@media (orientation: landscape) and (max-width: 675px) {
+    .content {
+        top: 3vmin;
+        font-size: 1.2rem;
+
     }
 }
 
@@ -26,7 +36,6 @@
 .social-media {
     position: relative;
     top: 3vmin;
-    /* border: solid pink 1px; */
 }
 
 .social-media-list {
@@ -48,4 +57,26 @@
 
 .social-media-list img:hover {
     background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 675px) {
+    .social-media {
+        top: 10vh;
+    }
+    .social-media-list img {
+        width: 75px;
+        height: 75px;
+
+    }
+}
+
+@media (orientation: landscape) and (max-width: 675px) {
+    .social-media {
+        top: 0;
+    }
+    .social-media-list img {
+        width: 60px;
+        height: 60px;
+
+    }
 }
