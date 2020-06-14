@@ -2,7 +2,6 @@
 @media (max-width: 675px) {
     .content-container {
         flex-direction: column;
-        top: 5vmin;
     }
 }
 
@@ -19,7 +18,7 @@
 }
 
 @media (max-width: 675px) {
-    .left-content {
+    .left-content, .right-content {
         left: 0;
         width: 90%;
     }
@@ -54,21 +53,13 @@
 
 /* Content on the Right */
 
-.right-content {
-    position: relative;
-    display: inline-block;
-    left: 5%;
-    width: 45%;
-    min-width: 250px;
-    padding: 3vmin;
-}
-
 .progress {
     position: relative;
     background-color: rgb(210, 210, 210);
     border-radius: 20px;
     height: 30px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     margin: 1rem 0;
     overflow: hidden;
 }
@@ -82,6 +73,13 @@
     top: -0.3rem;
     left: 0.9rem;
     transition: all 1s ease;
+}
+
+@media (max-width: 675px) {
+    .progress-text {
+        font-size: 0.65rem;
+        top: -0.15rem;
+    }
 }
 
 .progress-done {

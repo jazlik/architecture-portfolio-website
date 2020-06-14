@@ -11,12 +11,6 @@
     /* border: solid green 3px; */
 }
 
-@media (max-width: 675px) {
-    .content-container {
-        padding-top: 5vmin;
-    }
-}
-
 /* Text Content */
 
 .text-content {
