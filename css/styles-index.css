@@ -5,9 +5,9 @@
     }
 }
 
-/* Content on the Left */
+/* Content on the Left (and bits of Right) */
 
-.left-content {
+.left-content, .right-content {
     display: inline-block;
     position: relative;
     left: 5%;
