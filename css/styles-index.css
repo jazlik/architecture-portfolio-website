@@ -64,6 +64,13 @@
     overflow: hidden;
 }
 
+@media (max-width: 675px) {
+    .progress {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .progress-text {
     position: absolute;
     z-index: 2;
