@@ -75,7 +75,7 @@ body {
     height: 80px;
     background-color: white;
     overflow: hidden;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navigation-menu {
