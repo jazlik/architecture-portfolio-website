@@ -141,15 +141,19 @@ label.navigation-pop-up  {
     }
 
     .navigation-menu {
-        position: relative;
-        left: 2.5%;
+        position: fixed;
+        left: 0;
         width: 100%;
-        margin-top: 3.5rem;
+        top: 80px;
         display: none;
+        background-color: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     }
 
     .navigation-menu a {
         font-size: 1.1rem;
+        display: block;
+        padding: 1rem;
     }
 
     .navigation-menu ul {
@@ -157,18 +161,12 @@ label.navigation-pop-up  {
         align-items: center;
         flex-direction: column;
         padding: 0;
+        margin: 0;
     }
 
-    .navigation-menu li:first-child {
-        margin: 0 0 1rem 0;
-    }
-
-    .navigation-menu li:not(:first-child):not(:last-child)  {
-        margin: 1rem 0 1rem 0;
-    }
-
-    .navigation-menu li:last-child {
-        margin: 1rem 0 0 0;
+    .navigation-menu li {
+        width: 100%;
+        text-align: center;
     }
 
     #toggle:checked + .navigation-menu {
@@ -198,7 +196,7 @@ footer {
     height: 50px;
     border-radius: 50%;
     background: rgb(0, 0, 0);
-    box-shadow: 0 0 10px rbga(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     color: white;
     border: none;
     outline: none;
