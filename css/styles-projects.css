@@ -9,15 +9,15 @@
 
 @media (max-width: 675px) {
     .content {
-        padding-top: 10vmin;
+        padding: 10vmin 0 0;
     }
 }
 
 .images img {
     object-fit: cover;
     object-position: 50% 0;
-    width: 360px;
-    height: 360px;
+    width: 300px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -59,25 +59,18 @@
 
 @media (max-width: 675px) {
     .images img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     .image {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 }
 
 #project-1 {
     object-position: 10% -15px;
-}
-
-@media (max-width: 675px) {
-    #project-1 {
-        width: 260px;
-        height: 260px;
-    }
 }
 
 #project-2 {
@@ -90,30 +83,20 @@
 
 #project-4 {
     object-position: 25% 0;
-    width: 300px;
-    height: 300px;
 }
 
 #project-5 {
     object-position: 60% 0;
-    width: 300px;
-    height: 300px;
 }
 
 #project-6 {
     object-position: 55% 0;
-    width: 310px;
-    height: 310px;
 }
 
 #project-7 {
     object-position: 50% 0;
-    width: 300px;
-    height: 300px;
 }
 
 #project-8 {
     object-position: 0 100%;
-    width: 300px;
-    height: 300px;
 }
